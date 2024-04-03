@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer, #original-string {
+    background-color: #362d4e;;
+}
+
+#original-string{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+:root {
+    --primary-color: #1d3557;
+}
+
+
+#buttons button{
+    min-width: 45%;
+}
+
+#output{
+    min-height: 300px;
+}
+
+
+
+
+@media only screen and (max-width:550px){
+    #buttons button{
+        min-width: 90%;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
